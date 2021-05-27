@@ -36,19 +36,20 @@ left: 30px;
     height: 1600px;
 }
 
-.cor-fundo h1{
-    position: relative;
-    text-align: center;
-   
-    top: 50px;
-}
+
 @media screen {
     @media(min-width:300px){
         .cor-fundo p{
             position: relative;
-    text-align: center;
-    padding: 80px;
-    font-size: 26px;
+            text-align: center;
+            padding: 80px;
+            font-size: 30px;
+        }
+        .cor-fundo h1{
+            position: relative;
+            text-align: center;
+           font-size: 50px;
+            top: 50px;
         }
     }
     @media(min-width:1000px){
