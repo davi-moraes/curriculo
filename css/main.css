@@ -42,15 +42,27 @@ left: 30px;
    
     top: 50px;
 }
+@media screen {
+    @media(min-width:300px){
+        .cor-fundo p{
+            position: relative;
+    text-align: center;
+    padding: 80px;
+    font-size: 26px;
+        }
+    }
+    @media(min-width:1000px){
+        .cor-fundo p{
 
-
-.cor-fundo p{
-
-position: relative;
-text-align: center;
-padding: 80px;
-font-size: larger;
+            position: relative;
+            text-align: center;
+            padding: 80px;
+            font-size:larger;
+            }
+    }
 }
+
+
 .conhecimentos{
     font-size: 18px !important;
 }
