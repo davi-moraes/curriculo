@@ -73,6 +73,12 @@ left: 30px;
     right: 40px;
     top: -4.9em;
 }
+.telefone::after{
+    position: relative;
+    text-align: right;
+    right: 40px;
+    top: -4.0em;
+}
 .contato{
     position: relative;
     text-align: right;
