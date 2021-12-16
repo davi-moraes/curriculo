@@ -73,7 +73,7 @@ left: 30px;
     right: 40px;
     top: -4.9em;
 }
-.telefone::after{
+.telefone::houver{
     position: relative;
     text-align: right;
     right: 40px;
